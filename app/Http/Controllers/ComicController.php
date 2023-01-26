@@ -13,7 +13,9 @@ class ComicController extends Controller
      */
     public function index()
     {
-        $fumetto = Comics::all()
+        $fumetto = Comics::all();
+
+        return view('');
     }
 
     /**
